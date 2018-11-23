@@ -1,7 +1,6 @@
 #Q1
 
 library(microbenchmark)
-
 odd_count =function(x) {
   odd_num = 0
   for(i in 1:length(x)) {
